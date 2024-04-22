@@ -1,0 +1,11 @@
+C:\Facultate\Anul 2 - Sem 2\PAW\ExercitiiTest\ReferinteBibliograficeFinal\bin\Debug\ReferinteBibliograficeFinal.exe.config
+C:\Facultate\Anul 2 - Sem 2\PAW\ExercitiiTest\ReferinteBibliograficeFinal\bin\Debug\ReferinteBibliograficeFinal.exe
+C:\Facultate\Anul 2 - Sem 2\PAW\ExercitiiTest\ReferinteBibliograficeFinal\bin\Debug\ReferinteBibliograficeFinal.pdb
+C:\Facultate\Anul 2 - Sem 2\PAW\ExercitiiTest\ReferinteBibliograficeFinal\obj\Debug\ReferinteBibliograficeFinal.csproj.AssemblyReference.cache
+C:\Facultate\Anul 2 - Sem 2\PAW\ExercitiiTest\ReferinteBibliograficeFinal\obj\Debug\ReferinteBibliograficeFinal.Form1.resources
+C:\Facultate\Anul 2 - Sem 2\PAW\ExercitiiTest\ReferinteBibliograficeFinal\obj\Debug\ReferinteBibliograficeFinal.FormCarte.resources
+C:\Facultate\Anul 2 - Sem 2\PAW\ExercitiiTest\ReferinteBibliograficeFinal\obj\Debug\ReferinteBibliograficeFinal.Properties.Resources.resources
+C:\Facultate\Anul 2 - Sem 2\PAW\ExercitiiTest\ReferinteBibliograficeFinal\obj\Debug\ReferinteBibliograficeFinal.csproj.GenerateResource.cache
+C:\Facultate\Anul 2 - Sem 2\PAW\ExercitiiTest\ReferinteBibliograficeFinal\obj\Debug\ReferinteBibliograficeFinal.csproj.CoreCompileInputs.cache
+C:\Facultate\Anul 2 - Sem 2\PAW\ExercitiiTest\ReferinteBibliograficeFinal\obj\Debug\ReferinteBibliograficeFinal.exe
+C:\Facultate\Anul 2 - Sem 2\PAW\ExercitiiTest\ReferinteBibliograficeFinal\obj\Debug\ReferinteBibliograficeFinal.pdb
