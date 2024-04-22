@@ -1,0 +1,11 @@
+C:\Facultate\Anul 2 - Sem 2\PAW\ExercitiiTest\gestiuneStudenti\bin\Debug\gestiuneStudenti.exe.config
+C:\Facultate\Anul 2 - Sem 2\PAW\ExercitiiTest\gestiuneStudenti\bin\Debug\gestiuneStudenti.exe
+C:\Facultate\Anul 2 - Sem 2\PAW\ExercitiiTest\gestiuneStudenti\bin\Debug\gestiuneStudenti.pdb
+C:\Facultate\Anul 2 - Sem 2\PAW\ExercitiiTest\gestiuneStudenti\obj\Debug\gestiuneStudenti.csproj.AssemblyReference.cache
+C:\Facultate\Anul 2 - Sem 2\PAW\ExercitiiTest\gestiuneStudenti\obj\Debug\gestiuneStudenti.Form1.resources
+C:\Facultate\Anul 2 - Sem 2\PAW\ExercitiiTest\gestiuneStudenti\obj\Debug\gestiuneStudenti.FormStudent.resources
+C:\Facultate\Anul 2 - Sem 2\PAW\ExercitiiTest\gestiuneStudenti\obj\Debug\gestiuneStudenti.Properties.Resources.resources
+C:\Facultate\Anul 2 - Sem 2\PAW\ExercitiiTest\gestiuneStudenti\obj\Debug\gestiuneStudenti.csproj.GenerateResource.cache
+C:\Facultate\Anul 2 - Sem 2\PAW\ExercitiiTest\gestiuneStudenti\obj\Debug\gestiuneStudenti.csproj.CoreCompileInputs.cache
+C:\Facultate\Anul 2 - Sem 2\PAW\ExercitiiTest\gestiuneStudenti\obj\Debug\gestiuneStudenti.exe
+C:\Facultate\Anul 2 - Sem 2\PAW\ExercitiiTest\gestiuneStudenti\obj\Debug\gestiuneStudenti.pdb
