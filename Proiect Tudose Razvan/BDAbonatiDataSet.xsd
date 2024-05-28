@@ -1,0 +1,106 @@
+﻿<?xml version="1.0" encoding="utf-8"?>
+<xs:schema id="BDAbonatiDataSet" targetNamespace="http://tempuri.org/BDAbonatiDataSet.xsd" xmlns:mstns="http://tempuri.org/BDAbonatiDataSet.xsd" xmlns="http://tempuri.org/BDAbonatiDataSet.xsd" xmlns:xs="http://www.w3.org/2001/XMLSchema" xmlns:msdata="urn:schemas-microsoft-com:xml-msdata" xmlns:msprop="urn:schemas-microsoft-com:xml-msprop" attributeFormDefault="qualified" elementFormDefault="qualified">
+  <xs:annotation>
+    <xs:appinfo source="urn:schemas-microsoft-com:xml-msdatasource">
+      <DataSource DefaultConnectionIndex="0" FunctionsComponentName="QueriesTableAdapter" Modifier="AutoLayout, AnsiClass, Class, Public" SchemaSerializationMode="IncludeSchema" xmlns="urn:schemas-microsoft-com:xml-msdatasource">
+        <Connections>
+          <Connection AppSettingsObjectName="Settings" AppSettingsPropertyName="BDAbonatiConnectionString" ConnectionStringObject="" IsAppSettingsProperty="true" Modifier="Assembly" Name="BDAbonatiConnectionString (Settings)" PropertyReference="ApplicationSettings.Proiect_Tudose_Razvan.Properties.Settings.GlobalReference.Default.BDAbonatiConnectionString" Provider="System.Data.OleDb" />
+        </Connections>
+        <Tables>
+          <TableAdapter BaseClass="System.ComponentModel.Component" DataAccessorModifier="AutoLayout, AnsiClass, Class, Public" DataAccessorName="BDAbonatiTableAdapter" GeneratorDataComponentClassName="BDAbonatiTableAdapter" Name="BDAbonati" UserDataComponentName="BDAbonatiTableAdapter">
+            <MainSource>
+              <DbSource ConnectionRef="BDAbonatiConnectionString (Settings)" DbObjectName="BDAbonati" DbObjectType="Table" FillMethodModifier="Public" FillMethodName="Fill" GenerateMethods="Both" GenerateShortCommands="false" GeneratorGetMethodName="GetData" GeneratorSourceName="Fill" GetMethodModifier="Public" GetMethodName="GetData" QueryType="Rowset" ScalarCallRetval="System.Object, mscorlib, Version=4.0.0.0, Culture=neutral, PublicKeyToken=b77a5c561934e089" UseOptimisticConcurrency="true" UserGetMethodName="GetData" UserSourceName="Fill">
+                <SelectCommand>
+                  <DbCommand CommandType="Text" ModifiedByUser="false">
+                    <CommandText>SELECT Nume, Prenume, Telefon, Email, TipAbonament, DataPlatii, ExtraOptiune, Suma FROM BDAbonati</CommandText>
+                    <Parameters />
+                  </DbCommand>
+                </SelectCommand>
+              </DbSource>
+            </MainSource>
+            <Mappings>
+              <Mapping SourceColumn="Nume" DataSetColumn="Nume" />
+              <Mapping SourceColumn="Prenume" DataSetColumn="Prenume" />
+              <Mapping SourceColumn="Telefon" DataSetColumn="Telefon" />
+              <Mapping SourceColumn="Email" DataSetColumn="Email" />
+              <Mapping SourceColumn="TipAbonament" DataSetColumn="TipAbonament" />
+              <Mapping SourceColumn="DataPlatii" DataSetColumn="DataPlatii" />
+              <Mapping SourceColumn="ExtraOptiune" DataSetColumn="ExtraOptiune" />
+              <Mapping SourceColumn="Suma" DataSetColumn="Suma" />
+            </Mappings>
+            <Sources />
+          </TableAdapter>
+        </Tables>
+        <Sources />
+      </DataSource>
+    </xs:appinfo>
+  </xs:annotation>
+  <xs:element name="BDAbonatiDataSet" msdata:IsDataSet="true" msdata:UseCurrentLocale="true" msprop:EnableTableAdapterManager="True" msprop:Generator_UserDSName="BDAbonatiDataSet" msprop:Generator_DataSetName="BDAbonatiDataSet">
+    <xs:complexType>
+      <xs:choice minOccurs="0" maxOccurs="unbounded">
+        <xs:element name="BDAbonati" msprop:Generator_RowEvHandlerName="BDAbonatiRowChangeEventHandler" msprop:Generator_RowDeletedName="BDAbonatiRowDeleted" msprop:Generator_RowDeletingName="BDAbonatiRowDeleting" msprop:Generator_RowEvArgName="BDAbonatiRowChangeEvent" msprop:Generator_TablePropName="BDAbonati" msprop:Generator_RowChangedName="BDAbonatiRowChanged" msprop:Generator_RowChangingName="BDAbonatiRowChanging" msprop:Generator_TableClassName="BDAbonatiDataTable" msprop:Generator_RowClassName="BDAbonatiRow" msprop:Generator_TableVarName="tableBDAbonati" msprop:Generator_UserTableName="BDAbonati">
+          <xs:complexType>
+            <xs:sequence>
+              <xs:element name="Nume" msprop:Generator_ColumnPropNameInRow="Nume" msprop:Generator_ColumnPropNameInTable="NumeColumn" msprop:Generator_ColumnVarNameInTable="columnNume" msprop:Generator_UserColumnName="Nume" minOccurs="0">
+                <xs:simpleType>
+                  <xs:restriction base="xs:string">
+                    <xs:maxLength value="255" />
+                  </xs:restriction>
+                </xs:simpleType>
+              </xs:element>
+              <xs:element name="Prenume" msprop:Generator_ColumnPropNameInRow="Prenume" msprop:Generator_ColumnPropNameInTable="PrenumeColumn" msprop:Generator_ColumnVarNameInTable="columnPrenume" msprop:Generator_UserColumnName="Prenume" minOccurs="0">
+                <xs:simpleType>
+                  <xs:restriction base="xs:string">
+                    <xs:maxLength value="255" />
+                  </xs:restriction>
+                </xs:simpleType>
+              </xs:element>
+              <xs:element name="Telefon" msprop:Generator_ColumnPropNameInRow="Telefon" msprop:Generator_ColumnPropNameInTable="TelefonColumn" msprop:Generator_ColumnVarNameInTable="columnTelefon" msprop:Generator_UserColumnName="Telefon" minOccurs="0">
+                <xs:simpleType>
+                  <xs:restriction base="xs:string">
+                    <xs:maxLength value="255" />
+                  </xs:restriction>
+                </xs:simpleType>
+              </xs:element>
+              <xs:element name="Email" msprop:Generator_ColumnPropNameInRow="Email" msprop:Generator_ColumnPropNameInTable="EmailColumn" msprop:Generator_ColumnVarNameInTable="columnEmail" msprop:Generator_UserColumnName="Email" minOccurs="0">
+                <xs:simpleType>
+                  <xs:restriction base="xs:string">
+                    <xs:maxLength value="255" />
+                  </xs:restriction>
+                </xs:simpleType>
+              </xs:element>
+              <xs:element name="TipAbonament" msprop:Generator_ColumnPropNameInRow="TipAbonament" msprop:Generator_ColumnPropNameInTable="TipAbonamentColumn" msprop:Generator_ColumnVarNameInTable="columnTipAbonament" msprop:Generator_UserColumnName="TipAbonament" minOccurs="0">
+                <xs:simpleType>
+                  <xs:restriction base="xs:string">
+                    <xs:maxLength value="255" />
+                  </xs:restriction>
+                </xs:simpleType>
+              </xs:element>
+              <xs:element name="DataPlatii" msprop:Generator_ColumnPropNameInRow="DataPlatii" msprop:Generator_ColumnPropNameInTable="DataPlatiiColumn" msprop:Generator_ColumnVarNameInTable="columnDataPlatii" msprop:Generator_UserColumnName="DataPlatii" minOccurs="0">
+                <xs:simpleType>
+                  <xs:restriction base="xs:string">
+                    <xs:maxLength value="255" />
+                  </xs:restriction>
+                </xs:simpleType>
+              </xs:element>
+              <xs:element name="ExtraOptiune" msprop:Generator_ColumnPropNameInRow="ExtraOptiune" msprop:Generator_ColumnPropNameInTable="ExtraOptiuneColumn" msprop:Generator_ColumnVarNameInTable="columnExtraOptiune" msprop:Generator_UserColumnName="ExtraOptiune" minOccurs="0">
+                <xs:simpleType>
+                  <xs:restriction base="xs:string">
+                    <xs:maxLength value="255" />
+                  </xs:restriction>
+                </xs:simpleType>
+              </xs:element>
+              <xs:element name="Suma" msprop:Generator_ColumnPropNameInRow="Suma" msprop:Generator_ColumnPropNameInTable="SumaColumn" msprop:Generator_ColumnVarNameInTable="columnSuma" msprop:Generator_UserColumnName="Suma" minOccurs="0">
+                <xs:simpleType>
+                  <xs:restriction base="xs:string">
+                    <xs:maxLength value="255" />
+                  </xs:restriction>
+                </xs:simpleType>
+              </xs:element>
+            </xs:sequence>
+          </xs:complexType>
+        </xs:element>
+      </xs:choice>
+    </xs:complexType>
+  </xs:element>
+</xs:schema>
